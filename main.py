@@ -1,8 +1,8 @@
 import streamlit as st
 import mediapipe as mp
 import numpy as np
-import av
 from streamlit_webrtc import webrtc_streamer, VideoTransformerBase
+import av
 
 # Initialize MediaPipe Face Mesh
 mp_face_mesh = mp.solutions.face_mesh
